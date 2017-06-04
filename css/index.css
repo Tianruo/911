@@ -11,14 +11,14 @@ body{overflow-x:hidden;min-width:1100px;background:url("../img/bg.jpg");font-fam
 .boss2{width:80%;height:4px;border:1px solid #C7A462;top:80%;}
 .boss2>div{height:100%;width:0%;background:#C7A462;}
 
-.banner{position:relative;top:-50px;width:100%;height:100%;min-height:768px;background:url("../img/basic.jpg") center no-repeat;background-size:100%}
+.banner{position:relative;top:0px;left:-100px;width:100%;height:100%;min-height:768px;background:url("../img/basic.jpg") center no-repeat;background-size:auto 100%}
 .ban_img{width:1100px;margin:0 auto;height:100%;position:relative;}
 .ban_img>img,.ban_img>div{position:absolute;}
 .ban1{top:270px;left:630px;width:420px;opacity:0;}
-.ban2{top:320px;left:655px;width:235px;}
-.ban3{top:400px;left:655px;width:235px;}
-.ban4{border-top:1px solid #C7A462;width:238px;top:300px;left:655px;}
-.ban5{border-top:1px solid #C7A462;width:238px;top:380px;left:655px;}
+.ban2{top:410px;left:855px;width:235px;}
+.ban3{top:500px;left:855px;width:235px;}
+.ban4{border-top:1px solid #C7A462;width:238px;top:380px;left:855px;}
+.ban5{border-top:1px solid #C7A462;width:238px;top:478px;left:855px;}
 .ban_open{width:40px;height:35px;position:fixed;z-index:10;top:90px;right:80px;}
 .ban_open>div{height:3px;background:#C7A462;margin-bottom:7px;width:100%;}
 .ban_mask{width:28%;height:100%;position:fixed;z-index:10;top:0;right:-28%;}
@@ -28,7 +28,7 @@ body{overflow-x:hidden;min-width:1100px;background:url("../img/bg.jpg");font-fam
 .mask2>div{font-size:40px;margin:62px 30px;float:right;cursor:default;color:#fff;}
 .mask1_con{width:80%;min-width:180px;height:515px;margin:76px 0 0 38px;}
 .mask1_con_title{font-size:17px;font-weight:bold;color:#111;margin-bottom:50px;}
-.mask1_con0{height:85px;border-bottom:2px solid #ccc;}
+.mask1_con0{height:85px;border-bottom:2px solid #ccc;cursor:default;}
 .mask1_con0>div{float:left;}
 .mask1_con .c1{height:100%;width:40px;font-size:36px;font-weight:bold;line-height:105px;color:#111;margin-right:19px;}
 .mask1_con .c2{width:120px;font-size:15px;color:#111;margin-top:35px;font-weight:bold;cursor:default;}
