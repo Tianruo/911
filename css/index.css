@@ -11,7 +11,7 @@ body{overflow-x:hidden;min-width:1100px;background:url("../img/bg.jpg");font-fam
 .boss2{width:80%;height:4px;border:1px solid #C7A462;top:80%;}
 .boss2>div{height:100%;width:0%;background:#C7A462;}
 
-.banner{position:relative;top:0px;left:-100px;width:100%;height:100%;min-height:768px;background:url("../img/basic.jpg") center no-repeat;background-size:auto 100%;background-color:#000;}
+.banner{position:relative;top:0px;left:-100px;width:100%;height:100%;min-height:768px;background:url("../img/basic.jpg") center no-repeat;background-color: #000;background-size:auto 100%}
 .ban_img{width:1100px;margin:0 auto;height:100%;position:relative;}
 .ban_img>img,.ban_img>div{position:absolute;}
 .ban1{top:270px;left:630px;width:420px;opacity:0;}
@@ -38,9 +38,10 @@ body{overflow-x:hidden;min-width:1100px;background:url("../img/bg.jpg");font-fam
 
 .content{position:relative;margin:0 auto;}
 .videocontainer{width:850px;height:450px;margin:0 auto;margin-top:100px;overflow:hidden;}
+.videocontainer video{height: 100%;}
 .line1,.line2{position:absolute;width:1100px;left:50%;margin-left:-550px;}
 .line1{border-left:1px solid #C7A462}
-.line2{border-right:1px solid #C7A462}
+.line2{border-right:1px solid #C7A462;pointer-events: none;}
 .words{width:400px;margin:0 auto;margin-top:50px;text-align:center;color:#C7A462;font-size:6px;font-family:"微软雅黑"}
 
 .content_hot{margin-top:60px;width:850px;}

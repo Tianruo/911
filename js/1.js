@@ -180,12 +180,13 @@ function bannerGo(){
 }
 function windowGo(){
 	window.onscroll=function(){
-		if($('body').scrollTop()>=1100){
+		// console.log(document.documentElement.scrollTop);
+		if(document.documentElement.scrollTop>=1100){
 			$('.hot_title').animate({'left':'0'},1000,'easeInOutExpo');
 			$('.hot_img').delay(200).animate({'right':'40px'},1000,'easeInOutExpo');
 			$('.hot_title>*').delay(300).animate({'margin-left':'30px'},800,'easeInOutExpo');
 		}
-		if($('body').scrollTop()>=1700){
+		if(document.documentElement.scrollTop>=1700){
 			$('.product_number').animate({'left':'0'},1000,'easeInOutExpo');
 			$('.product_shift').animate({'right':'0'},1000,'easeInOutExpo');
 		}
